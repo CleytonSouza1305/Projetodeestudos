@@ -9,6 +9,11 @@ body{
     width: 60%;
     height: 60%;
     margin: auto;
+    background-color:#ebe5c5;    
+}
+
+nav{
+    color: red;
 }
 
 .fundo{
@@ -18,7 +23,7 @@ body{
     width: 400px;
     margin: auto;
     margin-top: 50px;
-    border: solid 2px red;
+    border: solid 2px rgba(255, 255, 255, 0.363);;
     border-radius: 20px;
 }
 
@@ -38,7 +43,7 @@ body{
 }
 
 .itens h2{
-    font-size: 18px;
+    font-size: 20px;
     margin-top: -20px;
 }
 
@@ -63,16 +68,17 @@ li{
 a{
     color: white;
     text-decoration: none;
-    transition: 250ms ease;
+    transition: 200ms ease;
 }
 
 a:hover{
     border: solid 3px white;
     padding: 2px;
-    background-color: rgba(255, 255, 255, 0.37);
-    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.151);
+    border-radius: 8px;
 }
 
-a::before{
+.seta::before{
     content: '➥\00a0';
+    margin-left: -24px;
 }
