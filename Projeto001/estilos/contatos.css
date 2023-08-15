@@ -6,14 +6,8 @@
 }
 
 body{
-    width: 60%;
-    height: 60%;
     margin: auto;
     background-color:#ebe5c5;    
-}
-
-nav{
-    color: red;
 }
 
 .fundo{
@@ -68,17 +62,23 @@ li{
 a{
     color: white;
     text-decoration: none;
-    transition: 200ms ease;
+    transition: 300ms ease;
 }
 
 a:hover{
-    border: solid 3px white;
     padding: 2px;
-    background-color: rgba(255, 255, 255, 0.151);
-    border-radius: 8px;
+    text-decoration:underline;
 }
 
 .seta::before{
     content: '➥\00a0';
     margin-left: -24px;
+}
+
+i{
+    padding-right: 10px;
+}
+
+.icons{
+    margin-left: -30px;
 }
