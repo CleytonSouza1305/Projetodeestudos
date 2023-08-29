@@ -140,9 +140,9 @@ input:hover{
     }
  }
 
- @media (max-width:450px){
+ @media (max-width:350px){
     main{
-        left: 8%;
+        left: 3%;
        }
     
        #imgfundo{
