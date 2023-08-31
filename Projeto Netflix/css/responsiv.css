@@ -1,4 +1,8 @@
 @media (max-width:400px){
+    .back{
+        background-position: center center;
+    }
+
     .logo{
         flex-direction: column;
         align-items: center;
@@ -56,3 +60,4 @@
     }
 
 }
+
