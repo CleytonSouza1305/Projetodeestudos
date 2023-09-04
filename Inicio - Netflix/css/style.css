@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(21, 21, 21);
+    color: white;
+}
+
+.content-back{
+    background-image: url('../imgs/fundo-banner.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 610px;
+    box-shadow: inset 0px 6px 35px 2px black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 10px 10px 10px;
+    margin-top: 10px;
+}
+
+.nav-bar{
+    margin-right: 405px;
+}
+
+.nav-bar nav a{
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+    color: #e5e5e5;
+    font-size: 14px;
+}
+
+.img-logo img{
+    width: 100px;
+    height: 32px;
+    margin-left: 42px;
+    margin-top: 9px;
+}
+
+.nav-bar-right {
+   display: flex;
+   align-items: center;
+   justify-content: space-between; 
+   width: 135px;
+   margin-right: 60px;
+   cursor: pointer;
+}
+
+.icon img{
+    width: 32px;
+    height: 32px;
+}
+
+.banner{
+    margin-top: 38px;
+}
+
+.banner-content{
+    padding-left: 55px;
+}
+
+.banner-content .top{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.top img{
+    width:34.78px;
+    height: 34.78px;
+    margin-top: -6px;
+}
+
+.top h1{
+    margin-left: -6.5px;
+}
+
+.banner-content img{
+margin-right: 1.5em;
+}
+
+.banner > img{
+    padding-left: 55px;
+}
+
+section .banner p{
+    width: 465px;
+    font-size: 1.2vw;
+    font-weight: 400;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.45);
+}
+
+button{
+    margin-top: 23px;
+    border-radius: 6px;
+}
+
+button a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn1{
+    width: 136.91px;
+    height: 40.95px;
+}
+
+.btn1 i{
+    font-size: 25px;
+}
+
+.btn2{
+    width: 214.31px;
+    height: 40.95px;
+}
