@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +10,7 @@
 body {
     background-color: rgb(21, 21, 21);
     color: white;
+   
 }
 
 .content-back{
@@ -28,7 +31,7 @@ header {
 }
 
 .nav-bar{
-    margin-right: 405px;
+    margin-right: 400px;
 }
 
 .nav-bar nav a{
@@ -36,7 +39,8 @@ header {
     text-decoration: none;
     padding-right: 20px;
     color: #e5e5e5;
-    font-size: 14px;
+    font-size: 15px;
+    font-weight: bolder;
 }
 
 .img-logo img{
@@ -100,25 +104,80 @@ section .banner p{
 
 button{
     margin-top: 23px;
-    border-radius: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-left: 2rem;
+    padding-right: 2.4rem;
+    border: none;
 }
 
 button a{
     text-decoration: none;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    transition: ease-in 200ms;
 }
 
 .btn1{
-    width: 136.91px;
-    height: 40.95px;
+    width: 141.64px;
+    height: 44.95px;
+    margin-right: 0.5rem;
+    padding: 0px 4px;
+}
+
+.btn1 a{
+    color: black;
+}
+
+.btn1:hover{
+    background-color: rgba(255, 254, 254, 0.671);
 }
 
 .btn1 i{
-    font-size: 25px;
+    margin-right: 10px;
+    color: black;
 }
 
 .btn2{
-    width: 214.31px;
-    height: 40.95px;
+    width: 211.13px;
+    height: 45.95px;
+    background-color: rgba(109, 109, 110, 0.76);
+    color: white;
+}
+
+.btn2 a{
+    color: white;
+}
+
+.btn2:hover{
+    background-color: rgba(109, 109, 110, 0.521);
+}
+
+h2{
+    padding-left: 53px;
+    font-size: 1.4vw;
+    padding-bottom: 13px;
+}
+
+.content1{
+    width: 1349px;
+    height: 139px;
+    display: flex;
+    
+}
+
+.content1 img{
+    padding-right: 7px;
+}
+
+.filmes1{
+    display: flex;
+    padding-left: 53px;
+}
+
+.position{
+    position: relative;
+    top: -35px;
 }
