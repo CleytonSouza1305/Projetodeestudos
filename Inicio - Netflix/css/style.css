@@ -158,7 +158,11 @@ button a{
 h2{
     padding-left: 53px;
     font-size: 1.4vw;
-    padding-bottom: 13px;
+    padding-bottom: 11px;
+}
+
+#content-bug{
+    padding-top: 26px;
 }
 
 .content1{
@@ -169,7 +173,7 @@ h2{
 }
 
 .content1 img{
-    padding-right: 7px;
+    padding-right: 8px;
 }
 
 .filmes1{
@@ -180,4 +184,54 @@ h2{
 .position{
     position: relative;
     top: -35px;
+}
+
+
+footer{
+    max-width: 980px;
+    margin: 130px 130px 0px 130px;
+}
+
+.icons-link{
+    margin-left: 16px;
+}
+
+.icons-link ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+}
+
+.icons-link ul li a{
+    color: white;
+    margin-right: 45px;
+    font-size: 18px;
+}
+
+.a-footer ul{
+    list-style: none;
+    columns: 4;
+    padding-top: 20px;
+}
+
+.a-footer ul a{
+    color: grey;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.a-footer ul li{
+    margin-bottom: 16px;
+}
+
+.a-footer ul a:hover{
+    text-decoration: underline;
+}
+
+.btn-footer{
+    margin-left: 130px;
+    margin-top: 18px;
+    border: solid 1px white;
+    width: 160px;
 }
