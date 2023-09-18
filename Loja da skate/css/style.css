@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-text p {
+    background-color: #363636;
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    padding: 7px;
+    font-weight: 400;
+}
+
+.content-header1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-header1 a img {
+    width: 143px;
+    height: 72px;
+    margin-left: 47px;
+}
+
+.content-header1 input {
+    width: 726px;
+    box-shadow: 0 2px 0 transparent;
+    height: 2.1rem;
+    padding-left: 20px;
+    border-radius: 6px;
+    border: 0.5px solid black;
+    cursor: pointer;
+    margin-right: 65px;
+}
+
+.icons {
+    margin-right: 75px;
+}
+
+#secondicon {
+    margin-left: 5px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+    margin-left: 234px;
+    padding-top: 3px;
+}
+
+nav ul li a {
+    color: #363636;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #de0627;
+    transition: ease-in 200ms;
+}
+
+#marcked {
+    color: #de0627;
+}
+
+#marcked:hover {
+    color: #363636;
+    transition: ease-in 200ms;
+}
+
+.banner img {
+    padding-top: 5px;
+}
+
+.content-imgs {
+    display: flex;
+    align-items: center;
+    margin-left: 69px;
+}
+
+.content-imgs img {
+    padding-right: 25px;
+}
