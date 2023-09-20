@@ -89,13 +89,12 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
     margin-left: 69px;
-    position: absolute;
     overflow: hidden;
     margin-top: 57px;
+    margin-bottom: 57px;
 }
 
 .content-imgs img {
-    position: relative;
     transition: ease-in 200ms;
 }
 
@@ -119,9 +118,9 @@ nav ul li a:hover {
 .dropdownskt a{
     display: flex;
     background-color: white;
-    padding: 5px 20px 0px 20px;
+    padding: 3px 17px 0px 17px;
     position: relative;
-    left: -15px;
+    left: -20px;
     top: 5px;
     border-top: none;
     font-weight: normal;
