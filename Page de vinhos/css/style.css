@@ -23,6 +23,7 @@ header {
 
 header .logo img{
     border-radius: 7px;
+    margin-left: 40px;
 }
 
 header ul {
@@ -33,9 +34,80 @@ header ul {
 header ul a {
     color: white;
     text-decoration: none;
-    padding-right: 15px;
+    margin-right: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+header ul a:hover {
+    box-shadow: 0px 1px 20px 1px rgba(216, 215, 215, 0.712);
+    transition: ease-in-out .2s;
 }
 
 .icons-header {
-    color: rgb(189, 187, 187);
+    color: rgb(223, 221, 221);
+    margin-right: 40px;
+    cursor: pointer;
 }
+
+.icons-header #buy_icon {
+    margin-left: 10px;
+}
+
+.icons-header i:hover {
+    color: white;
+    transition: ease-in 100ms;
+}
+
+ main {
+    display: flex;
+    align-items: center;
+    background-image: url('../imgs/img-background.webp');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 90vh;
+ }
+
+ main::after {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.719);
+    height: 90vh;
+    width: 100%;
+    position: absolute;
+ }
+
+ section {
+    z-index: 1;
+    color: white;
+    text-align: center;
+    box-shadow: inset 0px 0px 15px 0px rgb(223, 133, 16);
+ }
+
+.section-primeira {
+    width: 500px;
+    padding: 20px;
+    margin-left: 70px;
+ }
+
+ .section-primeira h1 {
+    margin-bottom: 20px;
+ }
+
+ .rightsidecontent {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 400px;
+    margin-left: 115px;
+ }
+
+ .rightsidecontent h2 {
+    margin-bottom: 20px;
+ }
+
+ .rightsidecontent section {
+    padding: 9px 15px;
+ }
