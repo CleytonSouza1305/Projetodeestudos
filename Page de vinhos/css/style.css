@@ -11,14 +11,13 @@
     --cor2:#b75a4a;
     --cor3:#783716;
     --cor4:#150d08;
-    
 }
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--cor3);
+    background-image: linear-gradient(45deg, var(--cor3), var(--cor4));
 }
 
 header .logo img{
@@ -111,3 +110,75 @@ header ul a:hover {
  .rightsidecontent section {
     padding: 9px 15px;
  }
+
+ footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+    color: white;
+    background-color: rgb(43, 43, 43);
+ }
+    
+footer ul {
+    list-style: none;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer h3 {
+    padding-bottom: 15px;
+}
+
+#redes-sociais {
+    text-align: center;
+}
+
+#redes-sociais ul li {
+    padding: 7px 0px;
+}
+
+#redes-sociais i {
+    margin-right: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#redes-sociais a {
+    color: white;
+}
+
+#lojas {
+    text-align: center;
+}
+
+#lojas ul li{
+    padding: 7px 0px;
+}
+
+#lojas a {
+    color: white;
+}
+
+.fa-whatsapp:hover {
+    box-shadow: 2px 0px 20px 10px rgb(0 255 0);
+}
+
+.fa-facebook:hover{
+    box-shadow: 2px 0px 20px 10px blue;
+}
+
+.fa-instagram:hover {
+    box-shadow: 2px 0px 20px 10px rgb(252, 159, 174);
+}
+
+.fa-twitter:hover {
+    box-shadow: 2px 0px 20px 10px cyan;
+}
+
+.fa-github:hover {
+    box-shadow: 2px 0px 20px 10px purple;
+}
