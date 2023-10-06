@@ -23,12 +23,8 @@ nav {
     padding: 20px 50px;
 }
 
-.logo {
-    max-width: 200px;
-}
-
 .logo img {
-    width: 100%;
+    max-width: 200px;
 }
 
 .itens-navbar {
@@ -48,10 +44,71 @@ nav {
     font-size: 17px;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.itens-navbar li a:hover::after {
+    width: 85%;
+    transition: 300ms ease-in-out;
+}
+
+.itens-navbar li a::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #48F3F9;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
 }
 
 .icons-navbar i{
     padding: 10px;
     font-size: 25px;
     color: white;
+    cursor: pointer;
+}
+
+main {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+main button {
+    border: none;
+    outline: none;
+    font-weight: 600;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.btns {
+    padding: 6px 15px;
+}
+
+.btns:hover {
+    background-color: lightgrey;
+}
+
+.btns.ios-btn {
+    border-top-left-radius: 10px;
+    margin-right: -2px;
+}
+
+.btns.android-btn {
+    margin-left: -2px;
+    border-bottom-right-radius: 10px;
+}
+
+.clicado {
+    background-color: #48F3F9;
+}
+
+main section {
+    display: none;
 }
