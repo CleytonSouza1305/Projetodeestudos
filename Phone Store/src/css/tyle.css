@@ -81,6 +81,7 @@ main button {
     border: none;
     outline: none;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .buttons {
@@ -107,8 +108,96 @@ main button {
 
 .clicado {
     background-color: #48F3F9;
+    font-weight: 700;
 }
 
-main section {
+main .ios-mostrando {
     display: none;
+}
+
+main .android-mostrando {
+    display: none;
+}
+
+.conteudoDoIos {
+    
+}
+
+.conteudoDoAndroid {
+    
+}
+
+.header-content {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+.header-content img {
+    color: white;
+}
+
+.icons .fa-arrow-down {
+    animation: moveUpdown 500ms infinite alternate;
+}
+
+@keyframes moveUpdown {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+.header-content .fa-arrow-down {
+    font-size: 25px;
+}
+
+.maisOfertas button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 0px 20px 2px #48F3F9;
+    animation: ofertas 1.5s infinite;
+}
+
+@keyframes ofertas {
+    0% {
+        box-shadow: 0px 0px 0px 0px transparent;
+    }
+
+    50% {
+        box-shadow: 0px 0px 20px 2px #48F3F9;
+    }
+    
+    100% {
+        box-shadow: 0px 0px 0px 0px transparent;
+    }
+}
+
+.maisOfertas button:hover {
+    background-color: lightgrey;
+}
+
+.maisOfertas button a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.aparelhos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.colums {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
