@@ -50,7 +50,7 @@ nav {
 .itens-navbar li #marcked::before {
     content: '';
     display: block;
-    width: 80%;
+    width: 85%;
     height: 2px;
     background-color: #48F3F9;
     position: absolute;
@@ -291,4 +291,3 @@ main .android-mostrando {
 .rodape .criador a:hover {
     color: white;
 }
-
