@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap');
+
+main h2{
+    position: relative;
+}
+
+.carrinho-lateral h2 {
+    text-transform: uppercase;
+    color: white;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.carrinho-lateral {
+    text-align: center;
+    height: 88vh;
+    width: 400px;
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.808)50%, rgb(23, 23, 23, 0.7) 50%);
+    position: absolute;
+    top: 65px;
+    right: 0;
+    border: 1px solid rgba(255, 255, 255, 0.356);
+    border-right: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    animation: slide .5s ease-in-out;
+    display: none;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(100px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.close {
+    color: white;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    right: 0;
+    padding: 15px 30px 15px 15px;
+    cursor: pointer;
+}
+
+.icons-navbar .carrinhoclicado{
+    position: relative;
+}
+
+.icons-navbar .notificacao {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(238, 140, 12);
+    border-radius: 50%;
+    text-align: center;
+    top: 67px;
+    right: 52px;
+    font-size: 16px;
+}

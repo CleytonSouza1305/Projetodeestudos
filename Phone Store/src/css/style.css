@@ -208,6 +208,29 @@ main .android-mostrando {
     align-items: center;
 }
 
+.celulares {
+    position: relative;
+}
+
+.compra button{
+    padding: 10px 10px 7px 12px;
+    font-size: 25px;
+    border-bottom-left-radius: 30px;
+    background-color: #18a578;
+    border: solid 1px #48f3f991;
+}
+
+.compra button:hover {
+    background-color: #35dfa6;
+    transition: 280ms ease-in-out;
+}
+
+.carrinho {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 .valor {
     padding: 20px;
 }

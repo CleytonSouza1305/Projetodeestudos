@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap');
+
+main section{
+    position: relative;
+}
+
+.perfildousuario {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+    font-size: 13px;
+    min-width: 600px;
+    min-height: 350px;
+    background-color: rgb(56, 56, 56);
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    border-radius: 8px;
+}
+
+.close-perfil {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.coisas-user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.coisas-user p {
+    padding: 5px;
+}
+
+.coisas-user .infos-user img {
+    margin-bottom: 20px;
+}
+
