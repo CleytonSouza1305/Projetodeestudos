@@ -47,3 +47,11 @@ const fecharPerfil = document.querySelector(".close-perfil")
 fecharPerfil.addEventListener("click", function () {
    perfil.style.display = "none"
 })
+
+user.addEventListener("click", function() {
+   user.style.display = "none"
+})
+
+fecharPerfil.addEventListener("click", function () {
+   user.style.display = "inline"
+})

@@ -59,7 +59,7 @@ main h2{
 }
 
 .icons-navbar .notificacao {
-    position: fixed;
+    position: absolute;
     width: 20px;
     height: 20px;
     background-color: rgb(238, 140, 12);

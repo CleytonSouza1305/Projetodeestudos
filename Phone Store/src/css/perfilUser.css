@@ -25,6 +25,7 @@ main section{
     top: 150px;
     left: 400px;
     border-radius: 8px;
+    display: none;
 }
 
 .close-perfil {
@@ -49,5 +50,13 @@ main section{
 
 .coisas-user .infos-user img {
     margin-bottom: 20px;
+}
+
+.last-buy {
+    padding-top: 20px;
+}
+
+.last-buy p {
+    padding: 20px;
 }
 
