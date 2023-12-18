@@ -4,6 +4,8 @@
     --fonte-padrao:'Lato', sans-serif;
     --font-subtitulo:'Grafite', sans-serif;
     --font-titulos:'Sherwood', sans-serif;
+    --cor-primary:#BADDF2;
+    --cor-secundary: #6aa4ac;
 }
 
 @font-face {
@@ -99,47 +101,113 @@ body {
 }
 
 main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     color: white;
     font-family: var(--fonte-padrao);
+    margin-top: 35px;
+}
+
+main .titulo--2 {
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 main .content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-main .services {
-    width: 300px;
-    height: 105px;
-    background-color: #BADDF2;
+main .content section {
+    background-color: var(--cor-secundary);
     color: black;
-    margin: 10px;
-    border-radius: 8px;
-    padding: 15px;
-    cursor: pointer;
+    border-radius: 7px;
+    box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.7);
+    padding: 20px;
 }
 
-main .services:hover {
-    height: 250px;
-    transition: .4s ease-in-out;
+main .content section .subtitle-section{
+    font-variant: small-caps;
+    text-align: center;
+    padding: 10px 0;
 }
 
-main .services .infos {
+main .content section p {
+    padding: 0px 10px 20px 10px;
+    font-variant: small-caps;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+main .content section .itens {
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .content section .itens span{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+main .content section .itens img{
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+main .content section .itens .fa-ticket {
+    font-size: 60px;
+}
+
+main .content section .div-do-botao {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    text-align: center;
 }
 
-main .services .infos .texto-informativo{
-    display: none;
+main .content section .btn-agendar {
+ padding: 0.8em 1.8em;
+ margin-top: 20px;
+ border: 2px solid rgb(27, 27, 27);
+ border-radius: 7px;
+ position: relative;
+ overflow: hidden;
+ background-color: transparent;
+ text-align: center;
+ text-transform: uppercase;
+ font-size: 16px;
+ transition: .3s;
+ z-index: 1;
+ cursor: pointer;
 }
 
-main .services a img {
-    border-radius: 50%;
+main .content section .btn-agendar::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: rgb(83, 83, 83);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+
+main .content section .btn-agendar:hover::before {
+    width: 105%;
+}
+
+main .content section .btn-agendar a{
+    font-family: inherit;
+    color:rgb(27, 27, 27);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+main .content section .btn-agendar:hover a {
+    color: white;
+    transition: .3s;
 }

@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Number";
+    src: url(./fonts/ds_digital/DS-DIGIB.TTF);
+    font-weight: bolder
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+:root {
+    --principal: 'Poppins', sans-serif;
+    --number: 'Number', sans-serif;
+    --back-corpo: #242424;
+    --color-primary:#fff;
+}
+
+body {
+    width: 100%;
+    background-color: var(--back-corpo);
+    color: var(--color-primary);
+    position: relative;
+}
+
+header h1 {
+    font-family: var(--principal);
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 43%;
+    transform: translate(-20%, -43%);
+}
+
+.center-content {
+    height: 100vh;
+}
+
+main {
+    font-family: var(--number);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    position: relative;
+}
+
+main .miliseconds {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+.two-points {
+    font-size: 3rem;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.timerAnimeted {
+   border-top: 10px solid red;
+   border-radius: 50%;
+   width: 22rem;
+   height: 22rem;
+   position: absolute;
+   animation: spin 10s linear infinite;
+   background-color: rgba(0, 0, 0, 0.205);
+   box-shadow: 1px 1px 1px blue;
+   z-index: -1;
+}
+
